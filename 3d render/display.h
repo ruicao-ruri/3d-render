@@ -16,6 +16,7 @@ bool init_window();
 
 void draw_grid();
 void draw_rect(int posx, int posy, int rect_width, int rect_height, uint32_t color);
+void draw_pixel(int x, int y, uint32_t color);
 
 void render_color_buffer();
 void clear_color_buffer(uint32_t color);
